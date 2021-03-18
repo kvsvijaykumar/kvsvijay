@@ -4,6 +4,7 @@ int main()
    int n,i,fact=1;
    printf("Enter the integer\n");
    scanf("%d",&n);
+   printf("Now the loop begins to find factorial of given input");
    for(i=1;i<=n;i++)
    {
       fact=fact*i;
